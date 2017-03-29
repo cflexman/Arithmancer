@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web app for predictions has been created with Rails 5.0.1 and Ruby 2.4.0.
 
-Things you may want to cover:
+[comment]: # For inclusion: System dependencies, Config, db creation and init, deployment + tests, etc.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
