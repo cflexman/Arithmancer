@@ -824,3 +824,12 @@ puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
   Rendering /Users/connor/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
   Rendered /Users/connor/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/connor/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (192.6ms)
+Started GET "/" for ::1 at 2017-04-01 17:08:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 518ms (Views: 473.6ms | ActiveRecord: 3.4ms)
+
+
