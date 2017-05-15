@@ -1,6 +1,7 @@
 .DS_Store
 /.bundle
 tmp/*
+*.log
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
